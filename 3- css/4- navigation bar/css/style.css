@@ -1,0 +1,39 @@
+.nav{
+    list-style-type: none;
+}
+.nav>li>a{
+    /* next style is to remove underline from the link */
+   text-decoration: none ;
+   background-color: lightcyan;
+   border: solid 1px black;
+   
+}
+.nav>li{
+    float: left;
+    margin-right:10px;
+}
+.nav>li>a:hover{
+    background-color: lightcoral;
+    font-size: 20px;
+    border: solid 2px green;
+    box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.219);
+}
+.subnav{
+    list-style-type: none;
+    padding: 0;
+    background-color: antiquewhite;
+    border: solid 1px black;
+    /* the next style is to hide element */
+    display: none;
+}
+/* you can replace .nav>li>ul with cals name .sbnav */
+/* .nav>li>ul>li>a{ */
+.subnav>li>a{
+    text-decoration: none ;
+}
+.subnav>li{
+    margin-bottom:10px; 
+}
+.nav>li:hover>.subnav{
+display: block;
+}
