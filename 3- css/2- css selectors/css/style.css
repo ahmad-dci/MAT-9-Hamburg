@@ -1,0 +1,23 @@
+#par1{
+    background-color: lightblue;
+}
+#par2{
+    background-color: lightgray;
+}
+#par3{
+    background-color: lightsalmon;
+}
+
+
+#mainTitle{
+    border: solid 2px black;
+    text-shadow: 10px 10px 5px blue;
+}
+
+.subTitle{
+    padding-top:20px;
+    margin-bottom: 100px;
+    border: solid 1px green;
+    box-shadow:5px 5px 2px blue;
+    font-size: 30px;
+}
