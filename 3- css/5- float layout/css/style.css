@@ -1,0 +1,63 @@
+.header{
+    /* background-color: lightcyan; */
+    background-image: url('../imgs/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    float: left;
+    width:100%;
+    border-radius: 50px 0px 50px 0px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 7px black
+}
+.subdiv{
+    height: 200px;
+    float: left;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-left: 40%;
+    margin-top:20px;
+}
+.leftside{
+    background-color: lightcoral;
+    height: 400px;
+    float: left;
+    width:20%;
+}
+.content{
+    background-color: lightpink;
+    height: 400px;
+    float: left;
+    width:80%;
+    /* overflow-y: scroll */
+}
+.footer{
+    background-color: lightseagreen;
+    height: 200px;
+    float: left;
+    width:100%;
+}
+
+.somdiv1{
+background-color: red;
+height: 400px;
+width:48%;
+float: left;
+margin-right: 1%;
+border:solid 2px black;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+.somdiv2{
+    background-color: blue;
+    height: 400px;
+    width:50%;
+    float: left;
+}
+.fullcontent{
+    background-color: lightcyan;
+    background-image: url('../imgs/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}

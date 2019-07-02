@@ -6,6 +6,8 @@
    text-decoration: none ;
    background-color: lightcyan;
    border: solid 1px black;
+   border-radius: 5px 0px 5px;
+   padding: 5px;
    
 }
 .nav>li{
@@ -24,6 +26,7 @@
     background-color: antiquewhite;
     border: solid 1px black;
     /* the next style is to hide element */
+    margin-top:5px; 
     display: none;
 }
 /* you can replace .nav>li>ul with cals name .sbnav */
@@ -34,6 +37,6 @@
 .subnav>li{
     margin-bottom:10px; 
 }
-.nav>li:hover>.subnav{U
+.nav>li:hover>.subnav{
 display: block;
 }

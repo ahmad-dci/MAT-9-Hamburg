@@ -1,0 +1,28 @@
+.div1{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    transition: width  2s, background-color 5s;
+}
+.div1:hover{
+    width:200px;
+    background-color: yellow;
+}
+
+.div2{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    transition: all 2s;
+}
+.div2:hover{
+    transform: rotateY(360deg);
+    margin-left:200px;
+    height:200px;
+    width:200px;
+    font-size: 40px;
+}
