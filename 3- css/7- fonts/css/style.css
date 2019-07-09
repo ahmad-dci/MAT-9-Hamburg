@@ -1,0 +1,24 @@
+
+
+
+
+.title{
+    font-family: somefont;
+}
+.par{
+    font-family: fighter;
+}
+
+@font-face{
+    font-family: somefont;
+    src:url(../fonts/MonthGlade.otf);
+}
+@font-face{
+    font-family: fighter;
+    src:url(../fonts/fighter.otf);
+}
+
+
+.header{
+    font-family: 'Kaushan Script', cursive;
+}

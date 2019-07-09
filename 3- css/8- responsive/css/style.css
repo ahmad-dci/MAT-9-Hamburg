@@ -1,0 +1,44 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.navbar>li{
+    float: left;
+    padding-right:10px;
+    padding-left:10px;
+    width:20%;
+    text-align: center;
+}
+.navbar>li>a{
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    background-color: deepskyblue;
+    height:25px;
+    padding-top: 5px;
+    transition: transform 0.5s;
+}
+.navbar>.active>a{
+    background-color: cornflowerblue;
+}
+
+.navbar>li>a:hover{
+    transform: scale(1.5) rotate3d(0, 0, 1, 360deg) ;
+    
+}
+
+@media only screen and (max-width : 900px){
+    .navbar>li{
+        width:100%;
+        padding-right:0;
+    padding-left:0;
+    }
+    .navbar{
+        width:100%;
+    }
+    
+}
