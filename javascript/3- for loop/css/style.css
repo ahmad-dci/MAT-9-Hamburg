@@ -1,0 +1,5 @@
+#navContainer{
+    border: solid 2px red;
+    height: 0;
+    overflow: hidden;
+}
